@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_pass">#a36bff</color>
+    <color name="btn_kakao">#ffdf6b</color>
+    <color name="btn_default">#444444</color>
+    <color name="primary_color">#a36bff</color>
+    <color name="secondary_color">#444444</color>
+    <color name="placeholder">#999999</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

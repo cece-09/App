@@ -1,0 +1,40 @@
+<resources>
+    <!-- for firebase auth -->
+    <string name="web_client_id">873033004988-9e1rbsmgtq00j4glt28q5fusl0hv9694.apps.googleusercontent.com</string>
+
+    <!-- for regex -->
+    <string name="regex_sogang">^[A-Za-z](.*)([@]{1})sogang.ac.kr</string>
+
+
+    <string name="app_name">택시 합승 매칭 앱</string>
+    <string name="app_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="edit_email">메일을 입력해 주세요</string>
+    <string name="edit_code">인증코드를 입력해 주세요</string>
+    <string name="send_code">인증코드 발송</string>
+    <string name="resend_code">인증코드 재발송</string>
+    <string name="email_verification">인증하기</string>
+    <string name="code_sent">인증코드가 발송되었습니다. 3분 안에 입력해 주세요</string>
+    <string name="code_expire">인증코드가 만료되었습니다. 재발송 버튼을 눌러 다시 인증 메일을 발송하세요</string>
+    <string name="code_invalid">인증코드가 일치하지 않습니다. 입력한 코드를 확인해 주세요</string>
+
+    <string name="register_start_with_pass">PASS 인증서로 시작하기</string>
+    <string name="register_start_with_kakao">카카오 인증서로 시작하기</string>
+    <string name="register_email_title">이메일 인증</string>
+    <string name="register_email_description_1">학교 또는 기관 이메일을 인증해 주세요</string>
+    <string name="register_email_description_2">왜 학교 또는 기관 인증이 필요한가요?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

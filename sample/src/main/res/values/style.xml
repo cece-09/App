@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- button styles -->
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/round_shape</item>
+    </style>
+    <style parent="button_style" name="btn_default">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/btn_default</item>
+    </style>
+    <style parent="button_style" name="btn_pass">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/btn_pass</item>
+    </style>
+    <style parent="button_style" name="btn_kakao">
+        <item name="android:color">@color/black</item>
+        <item name="android:backgroundTint">@color/btn_kakao</item>
+    </style>
+
+    <!-- text styles -->
+    <style name="text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style parent="text" name="text_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_lg</item>
+    </style>
+    <style parent="text" name="text_link">
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:background">@drawable/hyperlink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- editText styles -->
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/placeholder</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/round_shape_stroke</item>
+    </style>
+</resources>
